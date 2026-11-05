@@ -38,5 +38,6 @@ jobs:
         with:
           name: browser-packages
           path: .output/*-mv3.zip
+          include-hidden-files: true
           if-no-files-found: error
           retention-days: 7
